@@ -1,0 +1,117 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+<h1 id="title">Survey Form</h1>
+<p id="description">A survey that can help us improve your experience.
+  </head>
+<div class="info">
+  <body>
+<form id="survey-form">
+  <label class="detail" id="name-label">Enter your full name</label>
+  <input class="input" id="name" type="text" placeholder="Full name" required>
+
+  <label class="detail" id="email-label"> Enter your email</label>
+  <input class="input" id="email" type="email" placeholder="****@email.com" required>
+
+  <label class="detail" id="number-label" > Enter your age</label>
+  <input class="input" id="number" type="number" min="12" max="100" placeholder="Age">
+  
+  <label class="detail">What are you striving for?</label>
+  <select id="dropdown">
+    <option value="Choose one">----</option>
+    <option value="To get a job">To get a job</option>
+    <option value="To make a better life">To learn more</option>
+    <option value="Curiosity">Curiosity</option>
+  </select>
+
+  <label class="detail">Are u willing to out of your comfort zone to acheive sucess?</label>
+  <input type="radio" class="rodio1" name="choose" value="yes">
+  <label class="radiolabel">Yes i am</label>
+
+  <input  type="radio" class="rodio2" name="choose" value="no">
+  <label class="radiolabel">I don't think i'm ready yet</label>
+
+  <label class="detail">What languages are you studying now?<label>
+    <input class="checkbox" type="checkbox" value="html">
+    <label>HTML</label>
+
+    <input class="checkbox" type="checkbox" value="css"> 
+    <label>Css</label>
+
+    <input class="checkbox" type="checkbox" value="javascript">
+    <label>JavaScript</label>
+
+    <label class="details">Any extra information you would like to provide?</label>
+    <textarea placeholder="Comment"></textarea>
+     <input class="submit" type="submit" id="submit">
+    </body>
+  </div>
+ 
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 5px;
+  color: #ffffff;
+  background-color: #1b1b32;
+  font-size: 18px;
+  font-family: tahoma;
+}
+
+h1, p{
+  margin: 1em auto;
+  text-align: center;
+}
+
+.detail{
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  padding: 5px 50px
+}
+
+.input{
+  width: 25%;
+
+}
+
+.info {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+  max-width: 900px; 
+  padding: 20px;
+}
+
+.rodio1 {
+  display: inline-block;
+}
+
+.radiolabel {
+ display: inline-block;
+}
+
+.checkbox {
+ display: inline-block;
+}
+
+.details{
+  display: block
+}
+.submit{
+ margin: 10px 40%;
+ width: 10em
+}
+
+** end of undefined **
+

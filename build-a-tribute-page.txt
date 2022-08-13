@@ -1,0 +1,74 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <main id="main">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="styles.css">
+      <title id="title">Muhamad Ali</title>
+      <h1>King of boxers, Muhamad Ali.</h1>
+      <div id="img-div">
+        <img id="image" src="https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2016/06/04/Web-Resampled/2016-06-04/1368864311465001651-kCMG--606x404@wp.com.jpg?t=20170517"  alt="muhamadali">
+        <div id="img-caption">Muhamad Ali, The untouchable.</div>
+        </div>
+        </head>
+        <body>
+        <p id="tribute-info">The former US president Bill Clinton said the country had “watched him grow from the brash self-confidence of youth and success into a manhood full of religious and political convictions that led him to make tough choices and live with the consequences”.
+
+“Along the way we saw him courageous in the ring, inspiring to the young, compassionate to those in need, and strong and good humoured in bearing the burden of his own health challenges,” the statement from Clinton said. If you are interested in knowing more about this legend, <a id="tribute-link" href="https://www.theguardian.com/sport/2016/jun/04/muhammad-ali-death-brings-worldwide-tributes-a-true-great-has-left-us" target="_blank">Visit here</a></p>
+</body>
+
+  </main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#img-div{
+  max-width: 500px;
+  margin: 0 auto;
+  
+  
+}
+
+#image{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  
+  
+}
+
+
+body{
+  background-color: #1b1b32;
+  color: white;
+  font-family: Helvetica
+}
+
+#img-caption{
+  display: block;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 18px;
+}
+
+h1{
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+}
+
+a{
+  color: grey;
+}
+
+a:hover{
+  color: red;
+}
+
+** end of undefined **
+
